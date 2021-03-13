@@ -85,7 +85,7 @@ class Instabrute():
 
         #Check if username exists in instagram server
         def IsUserExists(self):
-                r = requests.get('https://www.instagram.com/%s/?__a=1'%27 self.username)
+                r = requests.get('https://www.instagram.com/%s/?__a=1'% self.username)
                 if (r.status_code == 404):
                         print ('[*] User named "%s" not found' % username)
                         Input('[*] Press enter to exit')
