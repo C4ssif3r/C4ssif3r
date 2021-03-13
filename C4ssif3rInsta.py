@@ -18,6 +18,7 @@ print(" ╦╔═╗  ╦ ╦╔═╗╔═╗╦╔═")
 print(" ║║ ╦──╠═╣╠═╣║  ╠╩╗ ")
 print(" ╩╚═╝  ╩ ╩╩ ╩╚═╝╩ ╩ ")
 print(" Kos Nanat Age Eski Beri")
+print(" MoJtaBa CaSsiFeR astam Madar Yatim")
 print("")
 
 
