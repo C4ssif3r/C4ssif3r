@@ -17,7 +17,7 @@ print("Telegram: @Creator_Typeri ")
 print(" ╦╔═╗  ╦ ╦╔═╗╔═╗╦╔═")
 print(" ║║ ╦──╠═╣╠═╣║  ╠╩╗ ")
 print(" ╩╚═╝  ╩ ╩╩ ╩╚═╝╩ ╩ ")
-print( Kos Nanat Age Eski Beri")
+print(" Kos Nanat Age Eski Beri")
 print("")
 
 
