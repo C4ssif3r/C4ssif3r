@@ -1,3 +1,2 @@
-Hi Noob Member
-Kos nanat Age Eski Beri bye
+Hi Noob Members
 Id tel : @Creator_Typeri
