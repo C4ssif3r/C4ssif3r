@@ -1,5 +1,8 @@
-'''
-Datisnetwork.com creation
+# Mojtaba Cassifer Im
+# Age 16
+# city Mashhad
+# hello Word :D                                                                         '''
+Mojtaba CaSsiFer
 '''
 #import library
 import requests
@@ -8,20 +11,53 @@ import time
 import os
 import random
 import sys
-
+import re
+whaite= '\033[37m'
+red='\033[31m'
+green='\033[32m'
+blue='\033[36m'
+pink='\033[35m'
+rang='\033[34m'
+os.system("clear")
 #presentation & Thanks
-print("MoJtaBa CaSsiFeR")
+print(f"{rang} ")
+print("                             MoJtaBa CaSsiFeR")
 print("")
-print("If you need: ")
-print("Telegram: @Creator_Typeri ")
-print(" ╦╔═╗  ╦ ╦╔═╗╔═╗╦╔═")
-print(" ║║ ╦──╠═╣╠═╣║  ╠╩╗ ")
-print(" ╩╚═╝  ╩ ╩╩ ╩╚═╝╩ ╩ ")
-print(" Kos Nanat Age Eski Beri")
-print(" MoJtaBa CaSsiFeR astam Madar Yatim")
+time.sleep(1.0)
+print(f"{blue} ")
+print("                              If you need: ")
+time.sleep(2.0)
+print("                       Telegram: @Creator_Typeri ")
+print(f"{green} ")
+time.sleep(1.0)
+print("                          ╦╔═╗  ╦ ╦╔═╗╔═╗╦╔═")
+time.sleep(1.3)
+print("                          ║║ ╦──╠═╣╠═╣║  ╠╩╗ ")
+time.sleep(1.7)
+print("                          ╩╚═╝  ╩ ╩╩ ╩╚═╝╩ ╩ ")
 print("")
-
-
+print(f"{red} ")
+time.sleep(2.0)
+print("                         MoJtaBa CaSsiFeR im ")
+print("")
+print(f"{whaite} ")
+z = """
+   LOADING . . .  [†]███████████████████████████████████████████████[†]
+"""
+time.sleep(3.0)
+d =  """
+Loaded Sucessfully -¡-
+"""
+print(f"{green} ")
+for c in z:
+    sys.stdout.write(c)
+    sys.stdout.flush()
+    time.sleep(0.09)
+for c in d:
+    sys.stdout.write(c)
+    sys.stdout.flush()
+    time.sleep(0.09)
+time.sleep(1.3)
 #Help function
 def Input(text):
         value = ''
@@ -63,8 +99,8 @@ class Instabrute():
                                         Input('[*] Press enter to exit')
                                         exit()
                 else:
-                        print ('Ye Password List Besaz KoskhoL "%s"' % self.passwordsFile)
-                        Input('[*] ENTER bezan Beri Gom Shi')
+                        print ('Please Create A Password List "%s"' % self.passwordsFile)
+                        Input('[*] ERROR [*] ENTER FOR EXI5 ')
                         exit()
 
         #Choose random proxy from proxys file
@@ -126,7 +162,7 @@ class Instabrute():
 
 
 
-instabrute = Instabrute(Input('Yek Uzer Vared Kon Yatim: '))
+instabrute = Instabrute(Input('PLEASE ENTER ONE USER NAME / EXAPLE : instagram ==>  '))
 
 try:
         delayLoop = int(Input('[*] Please add delay between the bruteforce action (in seconds): '))
